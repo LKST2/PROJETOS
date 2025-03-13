@@ -3,6 +3,19 @@ COMANDOS:
 git status
 git commit -m "mensagem" (boa prática)
 git add .
+git push
+
+PROCESSO:
+
+1. Alteração do código;
+
+2. Adição de TODOS os arquivos alterados com gti add . ;
+
+3. Registro de informação sobre a mudança criada: git commit -m "mensagem"
+
+4. Envio para nuvem git push
+
+EXATAMENTE NESTA ORDEM!!!!!
 
 
 
