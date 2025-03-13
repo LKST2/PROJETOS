@@ -4,6 +4,17 @@ git status
 git commit -m "mensagem" (boa prática)
 git add .
 git push
+git reflog
+git branch
+git branch staging
+git checkout nomedabranch
+git merge nomedabranch
+git checkout -b nome-de-uma-branch-nova nome-da-branch-que-se-sairá
+touch .gitignore
+
+**** PARA VOLTAR VERSÕES ANTERIORES DE UM COD****
+
+git reset --hard NUMEROIDDAVERSAO 
 
 PROCESSO:
 
@@ -17,9 +28,15 @@ PROCESSO:
 
 EXATAMENTE NESTA ORDEM!!!!!
 
+CONCEITOS DE BRANCH:
 
+Basicamente é um conceito de operação e desenvolvimento de versãos sem ter de estagnar a a cadeia principal de produção. Uma espécie de manutenção do backup.
 
+Git Merge - unir informaçoes de uma branch à outra. **BOA PRÁTICA** para não correr o risco de de jogar uma atualização para versão antiga traga as informações da branch a ser atualizada para máquina local e dpois incorpore a nova versão. E aí suba novamente o código já atuallizado:
 
+*git pull - traz o código numa branch emporária para local
+**git merge nomedabranchprincipal - vai unir a branch modifica à principal
+***git push - para atualizar na nuvem
 
 
 
