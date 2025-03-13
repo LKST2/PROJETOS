@@ -1,0 +1,43 @@
+COMANDOS:
+
+git status
+git commit -m "mensagem" (boa prática)
+git add .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
