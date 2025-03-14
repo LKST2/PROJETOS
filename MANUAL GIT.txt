@@ -1,5 +1,6 @@
 COMANDOS:
 
+git init
 git status
 git commit -m "mensagem" (boa prática)
 git add .
